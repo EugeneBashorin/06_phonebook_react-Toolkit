@@ -4,11 +4,12 @@ import { Formik, Form, Field, ErrorMessage } from 'formik';
 import React from "react";
 import {LabelEl, LabelElFavorite, Button} from "./ContactForm.styled.jsx"
 import * as Yup from 'yup';
+import {useDispatch} from "react-redux";
+import {addUser} from "../../redux/userSlice";
 
 const Input = styled(Field)`
     width: 150px;
 `
-
 const InputCheckBox = styled(Field)`
     width: 15px;
     margin-right: 10px;
@@ -38,13 +39,12 @@ const initialValues = {
     favorites: false,
 }
 
-export const ContactForm = ({onSubmitProps}) => { 
-
+export const ContactForm = () => { 
+    const dispatch = useDispatch();
     const handleSubmit = (values, action) => {
-        onSubmitProps(values)
+        dispatch(addUser(values));
         action.resetForm();
     }
-
     return(
     <>  
             <Formik

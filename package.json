@@ -1,11 +1,12 @@
 {
-  "name": "04_phonebook_forms_hooks_react",
+  "name": "06_phonebook_react-Toolkit",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/EugeneBashorin/04_phonebook_forms_hooks_react/",
+  "homepage": "https://github.com/EugeneBashorin/06_phonebook_react-Toolkit/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
+    "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
     "@testing-library/user-event": "^13.5.0",
@@ -14,6 +15,7 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-native-get-random-values": "^1.8.0",
+    "react-redux": "^8.1.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.3",
     "yup": "^1.0.0"
