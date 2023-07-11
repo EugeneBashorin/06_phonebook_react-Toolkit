@@ -1,8 +1,8 @@
 {
-  "name": "06_phonebook_react-Toolkit",
+  "name": "Phonebook_React_Toolkit_Async_Rtk_Query_mockApi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/EugeneBashorin/06_phonebook_react-Toolkit/",
+  "homepage": "https://github.com/EugeneBashorin/Phonebook_React_Toolkit_Async_Rtk_Query_mockApi/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
